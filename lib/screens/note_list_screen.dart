@@ -163,14 +163,6 @@ class _NoteListScreenState extends State<NoteListScreen> {
                           color: Color(0xFF64748B),
                         ),
                       ),
-                      if (allNotes.isNotEmpty)
-                        const Text(
-                          'Penyimpanan: Hive CE',
-                          style: TextStyle(
-                            fontSize: 12,
-                            color: Color(0xFF94A3B8),
-                          ),
-                        ),
                     ],
                   ),
                 ),

@@ -265,36 +265,6 @@ class _NoteFormScreenState extends State<NoteFormScreen> {
                   ),
                 ),
                 const SizedBox(height: 16),
-
-                // Helper info
-                Container(
-                  padding: const EdgeInsets.all(12),
-                  decoration: BoxDecoration(
-                    color: const Color(0xFFEEF2FF),
-                    borderRadius: BorderRadius.circular(10),
-                    border: Border.all(color: const Color(0xFFC7D2FE)),
-                  ),
-                  child: Row(
-                    children: const [
-                      Icon(
-                        Icons.info_outline,
-                        size: 18,
-                        color: Color(0xFF4F46E5),
-                      ),
-                      SizedBox(width: 8),
-                      Expanded(
-                        child: Text(
-                          'Catatan disimpan secara lokal menggunakan Hive CE.',
-                          style: TextStyle(
-                            fontSize: 12,
-                            color: Color(0xFF3730A3),
-                            fontWeight: FontWeight.w500,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
               ],
             ),
           ),
